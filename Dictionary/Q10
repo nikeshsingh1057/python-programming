@@ -1,0 +1,10 @@
+#Write a program to get the maximum and minimum value of dictionary.
+# min and max of dict - values
+dict1 = {'key 1': 200, 'key 2': 300}
+val = dict1.values()
+max = max(val)
+min = min(val)
+
+# printing result
+print(f"{max} is maximum")
+print(f"{min} is mimimum")

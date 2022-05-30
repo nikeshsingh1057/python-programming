@@ -1,0 +1,11 @@
+#Write a program to concatenate two dictionaries to create one.
+# Concatenate 2 dict to create one dict
+dict1 = {'key 1': 2, 'key 2': 3}
+dict2 = {'key 3': 4, 'key 4': 5}
+
+# updating dict1 with dict2 using update method
+dict1.update(dict2)
+
+# changes made to dict1
+# printing updated dict1
+print(dict1)

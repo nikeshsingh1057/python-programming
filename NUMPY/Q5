@@ -1,0 +1,12 @@
+# Program to add rows/columns basis on requirements to numpy array.
+import numpy as np
+
+array = np.array([
+    [3, 2, 8],
+    [4, 12, 34],
+    [23, 12, 67]
+])
+
+newRow = np.array([2, 1, 8])
+newArray = np.vstack((array, newRow))
+print(newArray)

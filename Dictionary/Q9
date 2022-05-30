@@ -1,0 +1,9 @@
+#Write a program to sum all the values of a dictionary.
+# Sum of dict values
+dict1 = {'key 1': 200, 'key 2': 300}
+x = []
+for i in dict1.values():
+    x.append(i)
+
+# printing result
+print(sum(x))

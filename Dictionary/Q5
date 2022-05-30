@@ -1,0 +1,5 @@
+# Write a program in python to map 2 lists into a dictionary.
+keys = [1,2,3]
+values = ['Value 1', 'Value 2', 'Value 3']
+dict = dict(zip(keys, values))
+print(dict

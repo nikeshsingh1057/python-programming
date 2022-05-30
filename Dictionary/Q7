@@ -1,0 +1,12 @@
+#Python program to sort dictionary by values (Ascending/ Descending).
+import operator
+d = {'key 1': 2, 'key 2': 3, 'key 3': 4}
+print('Original dictionary : ',d)
+
+# in ascending
+sort_a = sorted(d.items(), key=operator.itemgetter(1))
+print('In Ascending by value : ',sort_a)
+
+# in descending
+sort_d = sorted(d.items(), key=operator.itemgetter(1), reverse=True)
+print('In Descending by value : ',sort_d)
